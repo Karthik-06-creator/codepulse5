@@ -1,8 +1,9 @@
 {
-  "version": 2,
+  "buildCommand": "",
+  "outputDirectory": ".",
   "functions": {
     "api/chat.js": {
-      "runtime": "nodejs18.x"
+      "maxDuration": 30
     }
   }
 }
