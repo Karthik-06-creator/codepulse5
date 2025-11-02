@@ -6,9 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vercel dev",
-    "start": "vercel dev",
-    "build": "echo 'No build step required - static files'",
-    "lint": "echo 'No linter configured'"
+    "start": "vercel dev"
   },
   "keywords": [
     "chatbot",

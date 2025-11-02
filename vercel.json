@@ -1,16 +1,6 @@
 {
-  "version": 2,
-  
-  "routes": [
-    {
-      "src": "/api/chat",
-      "dest": "/api/chat.js"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/$1"
-    }
-  ],
+  "buildCommand": "",
+  "outputDirectory": ".",
   "functions": {
     "api/chat.js": {
       "maxDuration": 30
