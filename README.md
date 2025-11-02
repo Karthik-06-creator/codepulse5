@@ -25,7 +25,7 @@ A client-first mental-health chatbot using OpenAI. Frontend is static HTML/CSS/J
 3. **Create a `.env` file** in the root directory:
    ```bash
    # Create .env file
-   echo "OPENAI_API_KEY=sk-your-api-key-here" > .env
+   echo "OPENAI_API_KEY=your-api-key-here" > .env
    ```
    
    Or manually create `.env` with:

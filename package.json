@@ -1,36 +1,19 @@
 {
   "name": "mindease-chatbot",
   "version": "1.0.0",
-  "description": "Empathetic mental health chatbot built with HTML, CSS, and JavaScript, powered by OpenAI API.",
-  "main": "index.html",
+  "description": "MindEase – An AI-powered mental wellness chatbot built with OpenAI and Vercel.",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "dev": "vercel dev",
-    "start": "vercel dev"
-  },
-  "keywords": [
-    "chatbot",
-    "mental-health",
-    "openai",
-    "ai",
-    "therapy",
-    "wellness",
-    "vercel",
-    "serverless"
-  ],
-  "author": "",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": ""
+    "start": "vercel start"
   },
   "dependencies": {
-    "openai": "^4.59.0"
-  },
-  "devDependencies": {
-    "vercel": "^40.0.0"
+    "openai": "^4.0.0"
   },
   "engines": {
-    "node": ">=18.0.0"
-  }
+    "node": ">=18"
+  },
+  "author": "Karthik",
+  "license": "MIT"
 }
