@@ -1,0 +1,38 @@
+{
+  "name": "mindease-chatbot",
+  "version": "1.0.0",
+  "description": "Empathetic mental health chatbot built with HTML, CSS, and JavaScript, powered by OpenAI API.",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "vercel dev",
+    "build": "echo 'No build step required - static files'",
+    "lint": "echo 'No linter configured'"
+  },
+  "keywords": [
+    "chatbot",
+    "mental-health",
+    "openai",
+    "ai",
+    "therapy",
+    "wellness",
+    "vercel",
+    "serverless"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "openai": "^4.59.0"
+  },
+  "devDependencies": {
+    "vercel": "^40.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
